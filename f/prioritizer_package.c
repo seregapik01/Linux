@@ -16,8 +16,6 @@ MODULE_VERSION("0.0.1");
 
 #define DEFAULT_PORT 2404
 #define DEFAULT_PRIORITY 10
-#define FLAG_ENABLED 1
-#define FLAG_DISABLED 0
 
 static int priority_port = DEFAULT_PORT; /* default port */
 module_param(priority_port, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
